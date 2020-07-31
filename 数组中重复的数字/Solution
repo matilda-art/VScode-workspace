@@ -4,7 +4,6 @@
  数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。
  请找出数组中任意一个重复的数字 
  */
-
 class Solution{
      public int findRepeatNumber(int[] nums) {
          Set<Integer> set = new HashSet<Integer>();
