@@ -5,7 +5,7 @@ public class InsertSort{
     public static void main(String[] args){
         int[] arr = {12,33,42,1,7,10};
         insertSort(arr);
-        System.out.println(Arrays.tostring(arr));
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void insertSort(int[] arr){
