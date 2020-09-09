@@ -1,7 +1,6 @@
 //直接插入排序
 
 public class InsertSort{
-
     public static void main(String[] args){
         int[] arr = {12,33,42,1,7,10};
         insertSort(arr);
