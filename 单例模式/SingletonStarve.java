@@ -17,5 +17,5 @@ public class SingletonStarve{
     }
 
     //让构造函数为private，这样该类就不会被实例化，减少误用
-    private SingletonStarve(){};
+    private SingletonStarve(){}
 }
