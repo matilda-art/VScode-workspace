@@ -49,7 +49,7 @@ public static void insertSort(int[] arr){
 //内元素进行排序，之后取出元素，重复上述分组和排序的工作，等分组的组数到达1时，
 //所有的几句在统一的组内排好序
 public static void shellSort(int[] arr){
-	for(int i = gap;j < arr.length;i++){
+	for(int i = gap;i < arr.length;i++){
 		int tmp = arr[i];
 		int j = i-gap;
 		for( ;j >= 0;j = j-gap){
